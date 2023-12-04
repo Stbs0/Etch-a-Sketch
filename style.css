@@ -21,8 +21,16 @@ body {
 .square {
   background-color: red;
   box-sizing: border-box;
-  flex: 1 0 6.25%; /* 100% / 16 columns */
-  height: 50px; /* Set your preferred height */
+  flex: 1 0 6.25%; /* Equal width and height */
+  height: 60px;
   border: 3px solid #ddd; /* Optional: Add a border for better visibility */
+  text-align: center;
+}
+.square-2 {
+  background-color: red;
+  box-sizing: border-box;
+  flex: 1 1 0; /* Equal width and height */
+  aspect-ratio: 1 / 1; /* Ensure the aspect ratio is 1:1 */
+  border: 3px solid #ddd;
   text-align: center;
 }
