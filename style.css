@@ -23,14 +23,16 @@ body {
   box-sizing: border-box;
   flex: 1 0 6.25%; /* Equal width and height */
   height: 60px;
+  aspect-ratio: 1 / 1;
   border: 3px solid #ddd; /* Optional: Add a border for better visibility */
   text-align: center;
 }
-.square-2 {
-  background-color: red;
-  box-sizing: border-box;
-  flex: 1 1 0; /* Equal width and height */
-  aspect-ratio: 1 / 1; /* Ensure the aspect ratio is 1:1 */
-  border: 3px solid #ddd;
-  text-align: center;
+.btn {
+  background-color: rgb(76, 76, 206);
+  color: rgb(190, 190, 190);
+  border: 0px;
+  border-radius: 3px;
+  font-size: 2em;
+  padding: 10px;
+  margin: 10px;
 }
